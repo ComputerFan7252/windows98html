@@ -26,27 +26,30 @@
 				<p>Notepad</p>
 		</button>
 		<div class="taskbar">
-			<button class="start-button" onclick="javascript: startMenu();">Start</button>
+			<button class="start-button" onclick="javascript: startMenu();">
+				<img src="img/icons/16/windows.png">
+				Start
+			</button>
 		</div>
 		<div id="start-menu" style="display: none;">
 			<div class="sidebar">
 				<img src="img/smenu/bar.png"></img>
 			</div>
 			<div class="smenu-items">
-				<button class="smenu-item">Programs</button>
-				<button class="smenu-item">Favorites</button>
-				<button class="smenu-item">Documents</button>
-				<button class="smenu-item">Settings</button>
-				<button class="smenu-item">Find</button>
-				<button class="smenu-item">Help</button>
-				<button class="smenu-item">Run</button>
+				<button class="smenu-item"><img src="img/icons/smenu/progs.png"></img>Programs</button>
+				<button class="smenu-item"><img src="img/icons/smenu/favs.png"></img>Favorites</button>
+				<button class="smenu-item"><img src="img/icons/smenu/docs.png"></img>Documents</button>
+				<button class="smenu-item"><img src="img/icons/smenu/settings.png"></img>Settings</button>
+				<button class="smenu-item"><img src="img/icons/smenu/find.png"></img>Find</button>
+				<button class="smenu-item"><img src="img/icons/smenu/help.png"></img>Help</button>
+				<button class="smenu-item"><img src="img/icons/smenu/run.png"></img>Run</button>
 				<hr>
-				<button class="smenu-item">Log Off...</button>
-				<button class="smenu-item">Shut Down...</button>
+				<button class="smenu-item"><img src="img/icons/smenu/logoff.png"></img>Log Off...</button>
+				<button class="smenu-item"><img src="img/icons/smenu/shutdown.png"></img>Shut Down...</button>
 			</div>
 		</div>
 		<div id="window notepad" style="left: 40px; top: 30px; position: absolute; width: 300px; height: 150px; display: none;">
-			<div class="window-top"><b>Notepad</b>
+			<div class="window-top"><img src="img/icons/16/note.png"></img><b>Notepad</b>
 				<button class="window-close" onclick="javascript: closeNotepad();">X</button>
 			</div>
 			<textarea id="textarea-notep"></textarea>
